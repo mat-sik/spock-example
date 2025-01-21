@@ -43,6 +43,18 @@
             <artifactId>spock-junit4</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>net.bytebuddy</groupId>
+            <artifactId>byte-buddy</artifactId>
+            <version>1.16.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.objenesis</groupId>
+            <artifactId>objenesis</artifactId>
+            <version>3.4</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
