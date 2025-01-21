@@ -9,11 +9,8 @@ class CalculatorSpec extends Specification {
         given: "a calculator instance"
         def calculator = new Calculator()
 
-        when: "adding two numbers"
-        def result = calculator.add(2, 3)
-
-        then: "the result should be their sum"
-        result == 5
+        expect: "the add result should be their sum"
+        calculator.add(2, 3) == 5
     }
 
 }
